@@ -1,0 +1,11 @@
+# Ignore playground/
+playground/
+
+# Ignore commitlint executable
+tools/commitlint*
+
+# Ignore Python cache
+__pycache__
+
+# Ignore log
+logs/*
