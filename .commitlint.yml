@@ -23,6 +23,7 @@ rules:
       - readme
       - license
       - ui
+      - widgets
   subject-empty:
     level: error
   type:
