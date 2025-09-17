@@ -38,3 +38,6 @@ class Statusbar(tkinter.Frame):
         self._s_msg.insert(tkinter.END, f'[{record.levelname}] {message}')
         self._s_msg.tag_add(record.levelname.lower(), 1.1, 1.5)
         self._s_msg.config(state='disabled')
+
+    def set_visible(self, visible: bool) -> None:
+        self.pack() if visible else self.pack_forget()
